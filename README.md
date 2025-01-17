@@ -2,15 +2,16 @@
 
 Astana University_SE2314_SAB is a smart contract implementing an ERC-20 standard token with additional functionality for receiving and displaying transaction information.
 
-## 📋 Description
-This smart contract includes the basic capabilities of the standard ERC-20 token with additional functions for managing transaction data:
 
-- **Initialization**: During deployment, 2,000 tokens are created and assigned to the contract creator.
-- **Transaction logging**: Each transaction is recorded along with relevant details.
-- **Transaction details**: Provides information such as:
-  - Sender's address
-  - Recipient's address
-  - Timestamp of the most recent transaction in an easy-to-read format
+## 📋 Description
+This smart contract extends the standard ERC-20 token functionality by incorporating features to track and access transaction details:
+
+- **Token Initialization**: At the time of deployment, the contract generates 2,000 tokens and assigns them to the deployer.
+- **Detailed Transaction Tracking**: Every transaction is systematically recorded, capturing all key details.
+- **Transaction Insights**: Users can access comprehensive information about transactions, including:
+  - The address of the sender
+  - The address of the recipient
+  - A human-readable timestamp for the latest transaction
 
 ## 🛠️ Functionality
 
@@ -46,7 +47,7 @@ This smart contract includes the basic capabilities of the standard ERC-20 token
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository.git
+   git clone https://github.com/kissamedinov/blockchain_assignment3.1.git
    ```
 
 2. Install dependencies:
